@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-image: url("assets/DSC06690.jpg");
+        background-color: #f9f4f4;
+        height: 1500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      h1 {
+        color: #1f98e9;
+      }
+      p {
+        color: white;
+      }
+
+    label{
+      color: white;
+    }
+ 
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="assets/Oussama.png" width="50" height="60" />
+      <div style="text-align: right">
+        <a href="Home.html" width="20" height="20">Home</a>
+        <a href="Services.html" width="20" height="20">Services</a>
+        <a href="index.html" width="20" height="20">About</a>
+        <a href="404 not.html" width="20" height="20">Skills</a>
+        <a href="Contact.html" width="20" height="20">Contact</a>
+      </div>
+    </header>
+    <h1>Contactez-nous</h1>
+    <form>
+        <div style="display: flex;flex-direction: column ; width: 30%" >
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required />
+
+    </br>
+    <label for="nom">Prenom :</label>
+    <input type="text" id="Prenom" name="Prenom" required />
+
+  </br>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required />
+    </br>
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </br>
+  <button type="submit">Envoyer</button>
+</div>
+    </form>
+  </body>
+</html>
